@@ -21,7 +21,7 @@ export default function Home() {
         {/* Slide 1 */}
         <SwiperSlide
           className="relative flex items-center justify-start bg-cover bg-center h-screen"
-          style={{ backgroundImage: `url('/img/fachada.jpg')` }}
+          style={{ backgroundImage: `url('/Image/fachada.jpg')` }}
         >
           <div
             className="absolute inset-0"
@@ -48,7 +48,7 @@ export default function Home() {
         {/* Slide 2 */}
         <SwiperSlide
           className="relative flex items-end justify-start bg-cover bg-center h-screen"
-          style={{ backgroundImage: `url('/img/quarto.jpg')` }}
+          style={{ backgroundImage: `url('/Image/quarto.jpg')` }}
         >
           <div
             className="absolute inset-0"
@@ -75,7 +75,7 @@ export default function Home() {
         {/* Slide 3 */}
         <SwiperSlide
           className="relative flex items-end justify-start bg-cover bg-center h-screen"
-          style={{ backgroundImage: `url('/img/swiper-n3.avif')` }}
+          style={{ backgroundImage: `url('/Image/swiper-n3.avif')` }}
         >
           <div
             className="absolute inset-0"

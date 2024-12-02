@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../../../public/img/logo-marmo.png";
+import Image from "next/image"; // Importação correta do componente Image
 import { useState } from "react";
 
 export default function Navbar() {
@@ -14,11 +13,12 @@ export default function Navbar() {
         {/* Logo */}
         <div className="w-[100px]">
           <Link href="/" className="flex items-center">
+            {/* Uso do Image com caminho relativo da pasta public */}
             <Image
-              src={logo}
+              src="/Image/logo-marmo.png" // Caminho correto a partir da pasta public
               alt="Logo Marmoraria Florianópolis"
-              width={200}
-              height={50}
+              width={200} // Defina a largura conforme necessário
+              height={50} // Defina a altura conforme necessário
               className="absolute object-contain"
             />
           </Link>
@@ -34,6 +34,7 @@ export default function Navbar() {
             ☰
           </button>
         </div>
+
         {/* Links (Desktop) */}
         <div className="hidden items-center md:flex text-[16px] gap-8 font-medium">
           <Link href="/" className="hover:text-gray-300">

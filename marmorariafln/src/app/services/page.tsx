@@ -1,5 +1,6 @@
 // app/services/page.tsx
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Services() {
   const services = [
@@ -39,7 +40,6 @@ export default function Services() {
         "Áreas externas em mármore: materiais resistentes e elegantes para transformar seu espaço gourmet, varanda ou piscina com sofisticação e durabilidade.",
       slug: "externas", // Este slug será usado na URL
     },
-
   ];
 
   return (
@@ -60,10 +60,11 @@ export default function Services() {
             className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300"
           >
             <div className="relative h-64 w-full bg-gray-200">
-              <img
-                src={`/img/${service.slug}.jpg`}  // Imagem com base no slug
+              <Image
+                src={`/img/${service.slug}.jpg`} // Imagem com base no slug
                 alt={service.title}
-                className="object-cover w-full h-full"
+                layout="fill"
+                objectFit="cover"
               />
             </div>
 

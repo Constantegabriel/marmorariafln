@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/img/logo-marmo.png";
+import logo from "../../../public/Image/logo-marmo.png";
 
 export default function Footer() {
   return (
