@@ -61,7 +61,7 @@ export default function Services() {
           >
             <div className="relative h-64 w-full bg-gray-200">
               <Image
-                src={`/img/${service.slug}.jpg`} // Imagem com base no slug
+                src={`/Image/${service.slug}.jpg`} // Imagem com base no slug
                 alt={service.title}
                 layout="fill"
                 objectFit="cover"

@@ -19,84 +19,84 @@ export default function MaterialsPage() {
         title: "Mármore Preto São Gabriel",
         price: 0,
         description: "Mármore de cor preta profunda com veios brancos, bastante sofisticado. Ideal para projetos modernos.",
-        imageUrl: "/img/id1.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id1.jpeg",  // Caminho correto para a pasta public/img
       },
       {
         id: 2,
         title: "Mármore Branco Carrara",
         price: 0,
         description: "Mármore clássico, de fundo branco com veios cinza, muito utilizado em projetos de alto padrão, como bancadas e pisos.",
-        imageUrl: "/img/id2.jpg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id2.jpg",  // Caminho correto para a pasta public/img
       },      
       {
         id: 3,
         title: "Granito Preto Absoluto",
         price: 0,
         description: "Granito de cor preta sólida, sem veios, com acabamento polido, muito durável e resistente.",
-        imageUrl: "/img/id3.jpg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id3.jpg",  // Caminho correto para a pasta public/img
       },
       {
         id: 4,
         title: "Granito Branco Ice",
         price: 0,
         description: " Granito branco com pequenos detalhes em cinza e preto. Bastante utilizado em bancadas de cozinha.",
-        imageUrl: "/img/id4.webp",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id4.webp",  // Caminho correto para a pasta public/img
       },
       {
         id: 5,
         title: "Mármore Travertino",
         price: 0,
         description: "Mármore bege claro com veios dourados, altamente valorizado por sua aparência luxuosa e sofisticada.",
-        imageUrl: "/img/id5.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id5.jpeg",  // Caminho correto para a pasta public/img
       },
       {
         id: 6,
         title: "Granito Verde Ubatuba",
         price: 0,
         description: "Granito verde escuro com pontos de tonalidade preta. Muito usado em bancadas e áreas externas.",
-        imageUrl: "/img/id6.jpg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id6.jpg",  // Caminho correto para a pasta public/img
       },     
       {
         id: 7,
         title: "Mármore Imperial",
         price: 0,
         description: "Mármore bege claro com veios dourados, altamente valorizado por sua aparência luxuosa e sofisticada.",
-        imageUrl: "/img/id7.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id7.jpeg",  // Caminho correto para a pasta public/img
       },     
       {
         id: 8,
         title: "Mármore Blanco Cristallo",
         price: 0,
         description: "Mármore branco translúcido com veios delicados. Seu acabamento brilhante é perfeito para ambientes modernos e clean.",
-        imageUrl: "/img/id8.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id8.jpeg",  // Caminho correto para a pasta public/img
       },     
       {
         id: 9,
         title: "Mármore Calacatta",
         price: 0,
         description: "Mármore branco com veios espessos em cinza e dourado, usado em projetos de luxo e alto padrão.",
-        imageUrl: "/img/id9.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id9.jpeg",  // Caminho correto para a pasta public/img
       },     
       {
         id: 10,
         title: "Granito Verde Santa Cecília",
         price: 0,
         description: " Granito verde com veios pretos e cinza, muito utilizado em pisos e bancadas.",
-        imageUrl: "/img/id10.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id10.jpeg",  // Caminho correto para a pasta public/img
       },     
       {
         id: 11,
         title: "Quartzito Branco",
         price: 0,
         description: "Pedra natural resistente e de coloração branca com tonalidades em cinza e creme. Ideal para bancadas e pisos..",
-        imageUrl: "/img/id11.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id11.jpeg",  // Caminho correto para a pasta public/img
       },     
       {
         id: 12,
         title: "Mármore Azul Bahia",
         price: 0,
         description: "Mármore raro e exótico com veios azulados e tons esverdeados, que cria uma sensação única e vibrante.",
-        imageUrl: "/img/id12.jpeg",  // Caminho correto para a pasta public/img
+        imageUrl: "/Image/id12.jpeg",  // Caminho correto para a pasta public/img
       },                        
     // Adicione mais materiais aqui
   ]);

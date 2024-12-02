@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import company from "../../../public/img/quarto.jpg";
+import company from "../../../public/Image/quarto.jpg";
 
 export default function Empresa() {
   return (
