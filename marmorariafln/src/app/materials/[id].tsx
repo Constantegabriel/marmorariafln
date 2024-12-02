@@ -21,42 +21,52 @@ export default function MaterialDetails() {
   const materials: Material[] = [
     {
       id: 1,
-      title: "Mármore Branco",
-      price: 150.0,
-      description: "Mármore branco de alta qualidade, perfeito para projetos sofisticados.",
-      imageUrl: "/img/marble-white.jpg",  // Caminho correto para a pasta public/img
+      title: "Mármore Preto São Gabriel",
+      price: 0,
+      description: "Mármore de cor preta profunda com veios brancos, bastante sofisticado. Ideal para projetos modernos.",
+      imageUrl: "/img/id1.jpeg",  // Caminho correto para a pasta public/img
     },
     {
       id: 2,
-      title: "Mármore Preto",
-      price: 200.0,
-      description: "Mármore preto polido com acabamento brilhante, ideal para ambientes modernos.",
-      imageUrl: "/img/marble-black.jpg",
-    },
+      title: "Mármore Branco Carrara",
+      price: 0,
+      description: "Mármore clássico, de fundo branco com veios cinza, muito utilizado em projetos de alto padrão, como bancadas e pisos.",
+      imageUrl: "/img/id2.jpg",  // Caminho correto para a pasta public/img
+    },      
     {
       id: 3,
-      title: "Mármore Travertino",
-      price: 180.0,
-      description: "Mármore com textura única e tom bege, ótimo para pisos e revestimentos.",
-      imageUrl: "/img/marble-travertine.jpg",
+      title: "Granito Preto Absoluto",
+      price: 0,
+      description: "Granito de cor preta sólida, sem veios, com acabamento polido, muito durável e resistente.",
+      imageUrl: "/img/id3.jpg",  // Caminho correto para a pasta public/img
     },
     // Adicione mais materiais aqui, se necessário
   ];
 
   useEffect(() => {
-    if (!id) {
-      setError("ID não fornecido.");
+    if (!id || typeof id !== "string") {
+      setError("ID não fornecido ou inválido.");
       return;
     }
 
-    const foundMaterial = materials.find((material) => material.id === parseInt(id));
-    
+    // A conversão para inteiro do ID vindo da URL
+    const numericId = parseInt(id);
+
+    // Verifica se o id convertido é um número válido
+    if (isNaN(numericId)) {
+      setError("ID inválido.");
+      return;
+    }
+
+    // Encontrar o material correspondente ao ID
+    const foundMaterial = materials.find((material) => material.id === numericId);
+
     if (foundMaterial) {
       setMaterial(foundMaterial);
     } else {
       setError("Material não encontrado.");
     }
-  }, [id, materials]);
+  }, [id]); // A dependência do useEffect é apenas 'id'
 
   if (error) {
     return <p className="text-center text-red-500 mt-10">{error}</p>;

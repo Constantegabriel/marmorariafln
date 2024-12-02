@@ -64,7 +64,7 @@ export default function Home() {
               Realizamos serviços personalizados e de alta qualidade para transformar
               cada ambiente em uma obra de arte.
             </p>
-            <Link href="">
+            <Link href="https://maps.app.goo.gl/NPSJPNp6B877nH396">
               <button className="px-6 py-2 bg-gray-800 hover:bg-gray-900 rounded-full text-sm md:text-lg font-semibold transition">
                Conheça nossos Serviços
               </button>
