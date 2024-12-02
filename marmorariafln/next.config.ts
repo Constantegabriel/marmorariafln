@@ -1,7 +1,3 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+module.exports = {
+  basePath: '/marmorariafln',  // Certifique-se de que a URL base esteja correta
+}
