@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/img/logo-marmo.png";
+import logo from "/img/logo-marmo.png";
 import { useState } from "react";
 
 export default function Navbar() {
